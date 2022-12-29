@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>토프레소 index</title>
+    <title>project1 Topresso</title>
+    <link
+      rel="shortcut icon"
+      href="./img/10star_copy.svg"
+      type="image/x-icon"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,6 +29,8 @@
     />
     <link rel="stylesheet" href="./css/common.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/common.js" defer></script>
+    <script src="./js/swiper.js" defer></script>
   </head>
   <!-- start! -->
   <body>
@@ -702,101 +709,5 @@
         </div>
       </div>
     </div>
-
-    <!-- Initialize Swiper -->
-    <script>
-      // main banner
-      var swiper1 = new Swiper(".banner_slide", {
-        spaceBetween: 40,
-        pagination: {
-          el: ".pg1",
-          type: "progressbar",
-        },
-        navigation: {
-          nextEl: ".next1",
-          prevEl: ".prev1",
-        },
-        initialSlide: 1,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-      });
-      var swiper2 = new Swiper(".banner_slide", {
-        spaceBetween: 40,
-        pagination: {
-          el: ".pg2",
-          type: "fraction",
-        },
-        navigation: {
-          nextEl: ".next1",
-          prevEl: ".prev1",
-        },
-        initialSlide: 1,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-      });
-
-      // sec1 반응형
-      var swiper3 = new Swiper(".m_banner_slide", {
-        spaceBetween: 40,
-        pagination: {
-          el: ".pg1",
-          type: "progressbar",
-        },
-        initialSlide: 1,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-      });
-      var swiper4 = new Swiper(".m_banner_slide", {
-        spaceBetween: 40,
-        pagination: {
-          el: ".pg2",
-          type: "fraction",
-        },
-        initialSlide: 1,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-      });
-
-      // sec2
-      var swiper5 = new Swiper(".sec2_slide", {
-        slidesPerView: 4,
-        spaceBetween: 20,
-      });
-
-      // sec4
-      var swiper6 = new Swiper(".md_con", {
-        scrollbar: {
-          el: ".swiper-scrollbar",
-          hide: true,
-        },
-        navigation: {
-          nextEl: ".next2",
-          prevEl: ".prev2",
-        },
-      });
-
-      // sec5
-      var swiper7 = new Swiper(".sns_slide", {
-        slidesPerView: "auto",
-        spaceBetween: 0,
-        slidesPerGroup: 3,
-        speed: 10000,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        centeredSlides: true,
-        autoplay: {
-          delay: 0,
-          disableOnInteraction: false,
-        },
-      });
-    </script>
   </body>
 </html>
