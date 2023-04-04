@@ -60,7 +60,7 @@ var swiper4 = new Swiper(".m_banner_slide", {
 
 // sec2
 var swiper5 = new Swiper(".sec2_slide", {
-  slidesPerView: 4,
+  slidesPerView: 3,
   spaceBetween: 20,
 });
 

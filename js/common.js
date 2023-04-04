@@ -6,20 +6,21 @@ $btnHam.addEventListener("click", function () {
 });
 
 const $gnbLi = document.querySelectorAll(".gnb > li");
-const $sub = document.querySelectorAll(".sub");
+const $menu = document.querySelectorAll(".gnb > li > a");
 
-$gnbLi.addEventListener("click", function () {
-  $gnbLi.classList.toggle("on");
-  $sub.classList.add("on");
+function toggleT() {
+  const thisItem = this.parentNode;
+  $gnbLi.forEach((item) => {
+    if (thisItem == item) {
+      thisItem.classList.toggle("on");
+      return;
+    }
+    item.classList.remove("on");
+  });
+}
 
-  // $gnbLi.forEach(function (item, idx) {
-  //   item.addEventListener("click", function (e) {
-  //     e.preventDefault();
-  //     $sub.forEach(function (sub) {
-  //       sub.style.display = "none";
-  //     });
-  //     $sub[idx].style.display = "block";
-  //   });
+$menu.forEach((elem) => {
+  elem.addEventListener("click", toggleT);
 });
 
 console.log(
