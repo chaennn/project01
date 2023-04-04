@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project1 Topresso</title>
+    <link
+      rel="shortcut icon"
+      href="./img/10star_copy.svg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/common.js" defer></script>
+    <script src="./js/swiper.js" defer></script>
+  </head>
+  <!-- start! -->
+  <body>
+    <header class="hd" id="hd">
+      <div class="top_menu max_w">
+        <h1 class="logo">
+          <a href="index.html"
+            ><img src="./img/logo/topresso_logo.svg" alt="로고"
+          /></a>
+        </h1>
+        <div class="nav_util">
+          <a href="#"><span>로그인</span></a>
+          <a href="#"><span>회원가입</span></a>
+          <div class="sns_list">
+            <a href="#"
+              ><img
+                src="./img/icon/sns_insta.svg"
+                alt="인스타그램"
+                class="insta"
+            /></a>
+            <a href="#"><img src="./img/icon/sns_blog.svg" alt="블로그" /></a>
+          </div>
+        </div>
+        <div class="menu_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <nav class="max_w">
+        <!-- ul.gnb>li*4{메인메뉴$}>ul.sub>li*4{서브메뉴$} -->
+        <ul class="gnb">
+          <li>
+            <a href="#">토프레소</a>
+            <ul class="sub">
+              <li><a href="#">회사 소개</a></li>
+              <li><a href="#">연혁</a></li>
+              <li>
+                <a href="#">토프레소와 나눔</a>
+              </li>
+              <li><a href="#">오시는 길</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">메뉴</a>
+            <ul class="sub">
+              <li><a href="#">신메뉴</a></li>
+              <li><a href="#">시그니처</a></li>
+              <li><a href="#">메뉴 찾기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">창업안내</a>
+            <ul class="sub">
+              <li><a href="#">개설안내</a></li>
+              <li>
+                <a href="#">예상 견적 시스템</a>
+              </li>
+              <li><a href="#">창업 Q&AMP;A</a></li>
+              <li><a href="#">가맹 문의</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">매장</a>
+            <ul class="sub">
+              <li><a href="#">인테리어</a></li>
+              <li><a href="#">오픈 매장</a></li>
+              <li>
+                <a href="#">가맹점 인터뷰</a>
+              </li>
+              <li><a href="#">매장찾기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">소식</a>
+            <ul class="sub">
+              <li><a href="#">뉴스레터</a></li>
+              <li>
+                <a href="#">토프레소 소식</a>
+              </li>
+              <li><a href="#">SNS</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://smartstore.naver.com/topresso/" target="_black"
+              >온라인몰</a
+            >
+          </li>
+        </ul>
+        <div class="search">
+          <form>
+            <div class="search_icon">
+              <input type="text" placeholder="통합검색" />
+              <input type="submit" class="btn_search" />
+            </div>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <div class="wrap">
+      <!--main index start-->
+      <section class="sec1">
+        <h2 hidden>banner_con</h2>
+        <div class="swiper banner_slide max_w">
+          <ul class="swiper-wrapper banner_list">
+            <li class="swiper-slide">
+              <img src="./img/banner/banner1.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="swiper-slide">
+              <img src="./img/banner/banner2.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="swiper-slide">
+              <img src="./img/banner/banner3.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="swiper-slide">
+              <img src="./img/banner/banner4.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+          </ul>
+          <div class="btn_con max_w">
+            <div class="swiper-button-next btn next1"></div>
+            <div class="swiper-button-prev btn prev1"></div>
+          </div>
+          <div class="swiper-pagination pg1"></div>
+          <div class="swiper-pagination pg2"></div>
+        </div>
+        <!-- banner mobile -->
+        <div class="swiper m_banner_slide max_w">
+          <ul class="swiper-wrapper m_banner_list">
+            <li class="swiper-slide">
+              <img src="./img/banner/m_banner1.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="swiper-slide">
+              <img src="./img/banner/m_banner2.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="swiper-slide">
+              <img src="./img/banner/m_banner3.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="swiper-slide">
+              <img src="./img/banner/m_banner4.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+          </ul>
+          <div class="swiper-pagination pg1"></div>
+          <div class="swiper-pagination pg2"></div>
+        </div>
+      </section>
+
+      <section class="sec2">
+        <div class="desktop inner max_w">
+          <h2>FRANCHIS</h2>
+          <div class="info_con">
+            <div class="info_thumb">
+              <p>가맹점 인터뷰</p>
+              <img src="./img/info_thumb/interview_blue.png" alt="" />
+              <div class="view_more">
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#"></a>
+            </div>
+            <div class="info_thumb">
+              <p>창업박람회</p>
+              <img src="./img/info_thumb/jobjair.jpg" alt="" />
+              <div class="view_more">
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#"></a>
+            </div>
+            <div class="info_thumb">
+              <p>인테리어</p>
+              <img src="./img/info_thumb/interior.jpg" alt="" />
+              <div class="view_more">
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#"></a>
+            </div>
+            <div class="info_thumb">
+              <p>언론 속 토프레소</p>
+              <img src="./img/info_thumb/news.jpg" alt="" />
+              <div class="view_more">
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#"></a>
+            </div>
+            <div class="info_thumb">
+              <p>가맹안내</p>
+              <img src="./img/info_thumb/handshake-c.png" alt="" />
+              <div class="view_more">
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#"></a>
+            </div>
+            <div class="info_thumb">
+              <p>매장찾기</p>
+              <img src="./img/info_thumb/store.png" alt="" />
+              <div class="view_more">
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#"></a>
+            </div>
+            <div class="info_thumb">
+              <p>뉴스레터</p>
+              <img src="./img/info_thumb/board.jpg" alt="" />
+              <div class="view_more">
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+        <!-- sec2 mobile-->
+        <div class="mobile max_w swiper sec2_slide">
+          <h2>FRANCHIS</h2>
+          <ul class="info_con swiper-wrapper">
+            <li class="info_thumb swiper-slide">
+              <p>가맹안내</p>
+              <img src="./img/info_thumb/handshake-c.png" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="info_thumb swiper-slide">
+              <p>창업박람회</p>
+              <img src="./img/info_thumb/jobjair.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="info_thumb swiper-slide">
+              <p>가맹점 인터뷰</p>
+              <img src="./img/info_thumb/interview_blue.png" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="info_thumb swiper-slide">
+              <p>인테리어</p>
+              <img src="./img/info_thumb/interior.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="info_thumb swiper-slide">
+              <p>언론 속 토프레소</p>
+              <img src="./img/info_thumb/news.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="info_thumb swiper-slide">
+              <p>매장찾기</p>
+              <img src="./img/info_thumb/store.png" alt="" />
+              <a href="#"></a>
+            </li>
+            <li class="info_thumb swiper-slide">
+              <p>뉴스레터</p>
+              <img src="./img/info_thumb/board.jpg" alt="" />
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="sec3">
+        <h2 hidden>sec3</h2>
+        <div class="banner_con left">
+          <div class="banner_copy left">
+            <p>라떼 맛집 토프레소의 비결</p>
+            <h3>미네랄 숙성우유</h3>
+            <span>더 부드럽게</span>
+            <span>더 고소하게</span>
+            <span>더 풍미있게</span>
+          </div>
+          <img src="./img/banner/milk_banner.jpg" alt="" />
+          <a href="#">자세히보기</a>
+        </div>
+        <div class="banner_con right">
+          <div class="banner_copy right">
+            <h3>Daily Order Roasted System</h3>
+            <span>당일주문, 당일 로스팅, 당일 발송</span>
+            <p>
+              토프레소는 원두 무재고 원칙에 따라 <br />
+              갓 볶은 신선한 원두를 전국 가맹점에 공급하고 있습니다.
+            </p>
+          </div>
+          <img class="b_banner" src="./img/banner/d_banner copy.jpg" alt="" />
+          <a href="#">자세히보기</a>
+        </div>
+      </section>
+      <section class="sec4 max_w">
+        <h2>MD</h2>
+        <div class="swiper md_con">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="main_feed">
+                <div class="md">
+                  <div class="thumb">
+                    <img src="./img/md/오리지널.png" alt="" />
+                  </div>
+                  <p>오리지널 블렌드</p>
+                  <p><strong>9,900</strong>원</p>
+                  <a href="#"></a>
+                </div>
+              </div>
+              <ul class="md_list">
+                <li>
+                  <div class="md">
+                    <div class="thumb">
+                      <img src="./img/md/mug_set.png" alt="" />
+                    </div>
+                    <p>토프레소 베이직 머그컵 (S/R/L)</p>
+                    <p><strong>9,000</strong>원</p>
+                    <a href="#"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="md">
+                    <div class="thumb">
+                      <img src="./img/md/디카페인.png" alt="" />
+                    </div>
+                    <p>토프레소 디카페인 블렌드</p>
+                    <p><strong>13,200</strong>원</p>
+                    <a href="#"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="md">
+                    <div class="thumb">
+                      <img src="./img/md/스페셜.png" alt="" />
+                    </div>
+                    <p>스페셜 블렌드</p>
+                    <p><strong>13,200</strong>원</p>
+                    <a href="#"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="md">
+                    <div class="thumb">
+                      <img src="./img/md/인도네시아.png" alt="" />
+                    </div>
+                    <p>홈카페 핸드드립 원두 인도네시아 만델링 200g</p>
+                    <p><strong>9,900</strong>원</p>
+                    <a href="#"></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide">
+              <div class="main_feed">
+                <div class="md">
+                  <div class="thumb">
+                    <img src="./img/md/헤리티지 유리머그.png" alt="" />
+                  </div>
+                  <p>헤리티지 유리머그</p>
+                  <p><strong>8,000</strong>원</p>
+                  <a href="#"></a>
+                </div>
+              </div>
+              <ul class="md_list">
+                <li>
+                  <div class="md">
+                    <div class="thumb">
+                      <img
+                        src="./img/md/환경보호 캔 텀블러 (500ml).png"
+                        alt=""
+                      />
+                    </div>
+                    <p>환경보호 캔 텀블러 (500ml)</p>
+                    <p><strong>9,500</strong>원</p>
+                    <a href="#"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="md">
+                    <div class="thumb">
+                      <img src="./img/md/cup_red.png" alt="" />
+                    </div>
+                    <p>레트로 머그(브라운)</p>
+                    <p><strong>6,500</strong>원</p>
+                    <a href="#"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="md">
+                    <div class="thumb">
+                      <img src="./img/md/리유저블 텀블러.png" alt="" />
+                    </div>
+                    <p>리유저블 텀블러</p>
+                    <p><strong>6,600</strong>원</p>
+                    <a href="#"></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="md">
+                    <div class="thumb">
+                      <img src="./img/md/cup_green.png" alt="" />
+                    </div>
+                    <p>레트로 머그(그린)</p>
+                    <p><strong>6,000</strong>원</p>
+                    <a href="#"></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="md_btn max_w">
+          <div class="swiper-button-next btn2 next2"></div>
+          <div class="swiper-button-prev btn2 prev2"></div>
+        </div>
+        <div class="more"><a href="#">더보기</a></div>
+        <div class="sec4_m">
+          <div class="sec4_conM">
+            <div class="main_feed">
+              <div class="md">
+                <div class="thumb">
+                  <img src="./img/md/오리지널.png" alt="" />
+                </div>
+                <p>오리지널 블렌드</p>
+                <p><strong>9,900</strong>원</p>
+                <a href="#"></a>
+              </div>
+            </div>
+            <div class="md_wrap">
+              <div class="md_list">
+                <div class="md">
+                  <div class="thumb">
+                    <img src="./img/md/mug_set.png" alt="" />
+                  </div>
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="md_list">
+                <div class="md">
+                  <div class="thumb">
+                    <img src="./img/md/cup_green.png" alt="" />
+                  </div>
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="md_list">
+                <div class="md">
+                  <div class="thumb">
+                    <img src="./img/md/디카페인.png" alt="" />
+                  </div>
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="md_list">
+                <div class="md">
+                  <div class="thumb">
+                    <img src="./img/md/스페셜.png" alt="" />
+                  </div>
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="md_list">
+                <div class="md">
+                  <div class="thumb">
+                    <img src="./img/md/인도네시아.png" alt="" />
+                  </div>
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="md_list">
+                <div class="md">
+                  <div class="thumb view_more">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec5">
+        <div class="inner max_w">
+          <h2>SNS</h2>
+          <div class="more"><a href="#">더보기</a></div>
+        </div>
+        <div class="swiper sns_slide">
+          <ul class="swiper-wrapper sns_thumb">
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/306688555_118954077602621_1722866490529919780_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns//307264198_5313924335371801_4004461343558175190_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/307670960_194281632986149_5747987150550115173_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/308668566_970800587647061_3873630777584216546_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/308883158_646190840232790_3836319194304185025_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/309901247_3127324500930948_3459164972045980314_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/309908063_8162107020497793_5040961620889759916_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/310441545_1141735373430330_9049134709319086699_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/310699581_483953076990540_286109195816439207_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/311066305_493645199304636_1589431604366456560_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/311185855_497456628955816_5324527452256570449_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/306688555_118954077602621_1722866490529919780_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/307264198_5313924335371801_4004461343558175190_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/307670960_194281632986149_5747987150550115173_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/310699581_483953076990540_286109195816439207_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/311066305_493645199304636_1589431604366456560_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/310441545_1141735373430330_9049134709319086699_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img
+                  src="./img/sns/310699581_483953076990540_286109195816439207_n.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <h2 hidden>footer</h2>
+        <div class="foot_top">
+          <div class="f_util">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">채용문의</a>
+            <a href="#">오시는길</a>
+          </div>
+          <div class="cs_number">
+            <a href="tel:1688-9519"><span>고객의 소리</span> 1688-9519</a>
+          </div>
+        </div>
+        <div class="foot_bottom">
+          <div class="copy">
+            <p class="add">
+              <span>업체명 : (주)에스앤큐플러스</span>
+              <span>주소 : 서울시 서초구 매헌로6길 55</span>
+              <span>3층 대표이사 : 오종환</span>
+              <span>사업자번호 : 106-86-88346</span>
+            </p>
+            <p class="copyright">
+              Copyright (C) 2016 TOPRESSO. All right reserved
+            </p>
+          </div>
+          <div class="kfa">
+            <span><img src="./img/kfa/bottom_b1_2020.png" alt="" /></span>
+            <span><img src="./img/kfa/bottom_b2.png" alt="" /></span>
+            <span><img src="./img/kfa/bottom_b4_2021.png" alt="" /></span>
+            <span><img src="./img/kfa/bottom_b6.png" alt="" /></span>
+            <span><img src="./img/kfa/kind_logo.png" alt="" /></span>
+          </div>
+        </div>
+      </footer>
+      <div class="float_wrap">
+        <div class="float_btn cs">
+          <a href="#">자세히보기</a>
+        </div>
+        <div class="float_btn go_top">
+          <a href="#hd">
+            <img src="./img/icon/go_up.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
